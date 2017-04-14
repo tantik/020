@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta name = "format-detection" content = "telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>YAMATO</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:400i" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../common/css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="../common/css/jcf.css">
+	<link rel="stylesheet" type="text/css" href="../common/css/style.css">
+</head>
+<body class="index">
+	<div id="wrapper"><!-- header begin -->
+		<header id="header">
+			<div class="header">
+				<!-- logo begin -->
+				<strong class="logo"><a href="#">YAMATO</a></strong>
+				<!-- logo end -->
+				<a href="#" class="mobile-opener"><span>Menu</span></a>
+				<div class="nav">
+					<nav>
+						<ul>
+							<li><a href="#">トップ</a></li>
+							<li><a href="#">大和商行とは</a></li>
+							<li><a href="#">事業案内</a></li>
+							<li><a href="#">求人案内</a></li>
+							<li class="sp"><a href="#">社員インタビュー</a></li>
+							<li class="sp"><a href="#">1日の流れ</a></li>
+							<li class="sp"><a href="#">人材育成・将来性</a></li>
+							<li class="sp"><a href="#">よくある質問</a></li>
+							<li><a href="#">会社案内</a></li>
+						</ul>
+					</nav>
+					<a href="#" class="link-mail btn"><span>お問合せ</span></a>
+				</div>
+				<a href="#" class="link-call btn"><span>求人などのお問合せ</span></a>
+			</div>
+		</header>
+		<!-- header end -->
+		<!-- main content begin -->
+		<div id="main">
+			<!-- promo image begin -->
+			<div class="promo-image contact">
+				<div class="head">
+					<h2>お問合せ</h2>
+					<h3>contact</h3>
+				</div>
+			</div>
+			<!-- promo image end -->
+			<!-- contact box begin -->
+			<div class="contact-box">
+				<div class="heading">
+					<h4>採用や新規取引などのお問合せは、以下のフォームよりお願い致します。<br />お問合せ内容確認後、担当者より後日ご連絡させて頂きます。</h4>
+				</div>
+				<div class="form">
+					<div class="holder">
+						<form method="POST" id="contacts-form" name="contform" class="box">
+							<input type="hidden" name="upflg" value="1">
+							<fieldset>
+								<div class="row top">
+									<label for="check01" class="label">お問合せ項目 <i>必須</i></label>
+									<div class="hold">
+										<div class="check-col">
+											<input tabindex="1" id="check01" type="checkbox" value="" />
+											<label for="check01">採用について</label>
+										</div>
+										<div class="check-col">
+											<input tabindex="2" id="check02" type="checkbox" value="" />
+											<label for="check02">新規取引について</label>
+										</div>
+										<div class="check-col">
+											<input tabindex="3" id="check03" type="checkbox" value="" />
+											<label for="check03">その他</label>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<label class="label" for="input01">お名前 <i>必須</i></label>
+									<input required name="name" tabindex="4" id="input01" class="text" type="text" placeholder="山本　太郎" value="" >
+								</div>
+								<div class="row">
+									<label class="label" for="input02">ふりがな <i>必須</i></label>
+									<input name="company" tabindex="5" id="input02" class="text" type="text" placeholder="やまもと　たろう" value="" >
+								</div>
+								<div class="row">
+									<label class="label" for="input03">メールアドレス <i>必須</i></label>
+									<input required name="mail" tabindex="6" id="input03" class="text" type="email" placeholder="abc@abcd.co.jp" value="" >
+								</div>
+								<div class="row">
+									<label class="label" for="input04">電話番号 <i>必須</i></label>
+									<input name="tel" tabindex="7" id="input04" class="text" type="tel" placeholder="06-1111-1111" value="" >
+								</div>
+								<div class="row">
+									<label class="label" for="input05">郵便番号</label>
+									<div class="hold">
+										<span class="txt">〒</span>
+										<input name="postal" tabindex="8" id="input05" class="text short" type="text" placeholder="1234567" value="" >
+									</div>
+								</div>
+								<div class="row">
+									<label class="label" for="select">都道府県</label>
+									<div class="select">
+										<select name="add" tabindex="9" id="select">
+											<option selected="selected">選択ください</option>
+											<option value="北海道">北海道</option>
+											<option value="青森県">青森県</option>
+											<option value="岩手県">岩手県</option>
+											<option value="宮城県">宮城県</option>
+											<option value="秋田県">秋田県</option>
+											<option value="山形県">山形県</option>
+											<option value="福島県">福島県</option>
+											<option value="茨城県">茨城県</option>
+											<option value="栃木県">栃木県</option>
+											<option value="群馬県">群馬県</option>
+											<option value="埼玉県">埼玉県</option>
+											<option value="千葉県">千葉県</option>
+											<option value="東京都">東京都</option>
+											<option value="神奈川県">神奈川県</option>
+											<option value="新潟県">新潟県</option>
+											<option value="富山県">富山県</option>
+											<option value="石川県">石川県</option>
+											<option value="福井県">福井県</option>
+											<option value="山梨県">山梨県</option>
+											<option value="長野県">長野県</option>
+											<option value="岐阜県">岐阜県</option>
+											<option value="静岡県">静岡県</option>
+											<option value="愛知県">愛知県</option>
+											<option value="三重県">三重県</option>
+											<option value="滋賀県">滋賀県</option>
+											<option value="京都府">京都府</option>
+											<option value="大阪府">大阪府</option>
+											<option value="兵庫県">兵庫県</option>
+											<option value="奈良県">奈良県</option>
+											<option value="和歌山県">和歌山県</option>
+											<option value="鳥取県">鳥取県</option>
+											<option value="島根県">島根県</option>
+											<option value="岡山県">岡山県</option>
+											<option value="広島県">広島県</option>
+											<option value="山口県">山口県</option>
+											<option value="徳島県">徳島県</option>
+											<option value="香川県">香川県</option>
+											<option value="愛媛県">愛媛県</option>
+											<option value="高知県">高知県</option>
+											<option value="福岡県">福岡県</option>
+											<option value="佐賀県">佐賀県</option>
+											<option value="長崎県">長崎県</option>
+											<option value="熊本県">熊本県</option>
+											<option value="大分県">大分県</option>
+											<option value="宮崎県">宮崎県</option>
+											<option value="鹿児島県">鹿児島県</option>
+											<option value="沖縄県">沖縄県</option>
+										</select>
+									</div>
+								</div>
+								<div class="row">
+									<label class="label" for="input06">住所</label>
+									<div class="hold">
+										<input name="address" tabindex="10" id="input06" class="text long" type="text" placeholder="" value="" />
+									</div>
+								</div>
+								<div class="row">
+									<label class="label" for="comment">お問合せ内容 <i>必須</i></label>
+									<div class="comment">
+										<textarea name="msg" tabindex="11" accesskey="x" placeholder="（例）採用について問合せしたい" id="comment" cols="30" rows="10" aria-invalid=""></textarea>
+									</div>
+								</div>
+								<div class="row bottom">
+									<label for="check04" class="label">個人情報の取扱への同意 <i>必須</i></label>
+									<div class="hold">
+										<div class="check-col">
+											<input tabindex="12" id="check04" type="checkbox" value="" />
+											<label for="check04">同意する</label>
+										</div>
+										<p class="link"><a href="#">個人情報の取扱はこちら &gt;</a></p>
+									</div>
+								</div>
+								<span class="btn"><input class="btn-send" type="submit" title="送信する" value="送信する" ><span>送信する</span></span>
+							</fieldset>
+						</form>
+						<div id="post_form_success">ありがとうございます。 <br>予約フォームが送信されました。</div>
+						<script>
+							document.getElementById('contacts-form').addEventListener('submit', function(evt){
+								var http = new XMLHttpRequest(), f = this, formData;
+								evt.preventDefault();
+								http.open("POST", "/contact_send.php", true);
+								formData = new FormData(document.forms.contform);
+								http.send(formData);
+								http.onreadystatechange = function() {
+									if (http.readyState == 4 && http.status == 200) {
+										$('#contacts-form').hide('slow');
+										$('#post_form_success').show();
+										f.msg.removeAttribute('value');
+										f.msg.value='';
+									}
+								}
+								http.onerror = function() {
+									alert('予約フォームが送信されました ,申し訳ございませんが、予約フォームが正しく送信されませんでした。');
+								}
+							}, false);
+						</script>
+					</div>
+				</div>
+			</div>
+			<!-- contact box end -->
+		</div>
+		<!-- main content end -->
+		<!-- footer begin -->
+		<footer id="footer">
+			<div class="holder">
+				<div class="logo-holder">
+					<strong class="logo"><a href="#">Yamato</a></strong>
+					<h5>株式会社大和商行</h5>
+					<p class="copyright">copyright &copy;株式会社大和商行 All rights reserved</p>
+				</div>
+				<div class="columns pc">
+					<ul class="links">
+						<li><a href="#">トップ</a></li>
+						<li><a href="#">大和商行とは</a></li>
+						<li><a href="#">事業案内</a></li>
+						<li><a href="#">求人案内</a></li>
+					</ul>
+					<ul class="links">
+						<li><a href="#">社員インタビュー</a></li>
+						<li><a href="#">一日の流れ</a></li>
+						<li><a href="#">人材育成・将来性について</a></li>
+						<li><a href="#">よくある質問</a></li>
+					</ul>
+					<ul class="links">
+						<li><a href="#">会社案内</a></li>
+						<li><a href="#">お問合せ</a></li>
+					</ul>
+				</div>
+				<div class="columns sp">
+					<ul class="links">
+						<li><a href="#">トップ</a></li>
+						<li><a href="#">大和商行とは</a></li>
+						<li><a href="#">事業案内</a></li>
+						<li><a href="#">求人案内</a></li>
+						<li><a href="#">社員インタビュー</a></li>
+						<li><a href="#">1日の流れ</a></li>
+						<li><a href="#">人材育成・将来性</a></li>
+						<li><a href="#">よくある質問</a></li>
+						<li><a href="#">会社案内</a></li>
+						<li><a href="#">お問合せ</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+		<!-- footer end -->
+	</div>
+	<script type="text/javascript" src="../common/js/jquery-1.12.3.min.js"></script>
+	<script type="text/javascript" src="../common/js/swiper.min.js"></script>
+	<script type="text/javascript" src="../common/js/jcf.js"></script>
+	<script type="text/javascript" src="../common/js/jcf.checkbox.js"></script>
+	<script type="text/javascript" src="../common/js/main.js"></script>
+	<script>
+		$(function() {
+			jcf.replaceAll();
+		});
+	</script>
+</body>
+</html>
