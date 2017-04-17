@@ -663,6 +663,11 @@ section .heading h3{
 	-webkit-background-size: cover;
 	background-size: cover;
 }
+.promo-image.recruit{
+	 background: url('../images/img-promo-recruit.jpg') no-repeat 50% 0;
+	 -webkit-background-size: cover;
+	 background-size: cover;
+ }
 /* workflow */
 .tabset{
 	list-style: none;
@@ -1051,9 +1056,34 @@ section .heading h3{
 	font-weight: 500;
 	overflow: hidden;
 }
-
-
-
+/* recruit block */
+.recruit-block{
+	margin-bottom: 122px;
+	overflow: hidden;
+}
+.recruit-block .tabset{margin-bottom: 93px;}
+table.table{
+	margin-bottom: 72px;
+	width: 100%;
+	border-collapse: collapse;
+}
+table.table th,
+table.table td{
+	border: 1px solid #ccc;
+	border-width: 1px 0;
+	text-align: left;
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 500;
+	vertical-align: middle;
+	padding: 15px 10px 14px 63px;
+	height: 30px;
+}
+table.table th{
+	background: #fff7f2;
+	width: 27%;
+}
+table.table td{padding-left: 30px;}
 
 
 
@@ -1228,6 +1258,9 @@ section .heading h3{
 	.contact-box .heading h4{letter-spacing: 1.5px;}
 	.form .row .label{padding-left: 0;}
 	.form .row.top .check-col{margin-bottom: 5px;}
+	.faq-list{margin-bottom: 70px;}
+	table.table th{padding-left: 40px;}
+	.recruit-block{margin-bottom: 0;}
 
 
 
@@ -1711,6 +1744,17 @@ section .heading h3{
 		line-height: 18px;
 		padding-top: 6px;
 	}
+	.recruit-block .tabset{margin-bottom: 35px;}
+	.table-holder{margin: 0 -20px;}
+	table.table{margin-bottom: 30px;}
+	table.table th,
+	table.table td{
+		padding: 10px;
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.recruit-block .btn{margin-bottom: 0;}
+
 
 
 
