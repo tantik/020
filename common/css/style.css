@@ -658,19 +658,13 @@ section .heading h3{
 	-webkit-background-size: cover;
 	background-size: cover;
 }
-
-
-
-
-
-
-
-
-
-
-
+.promo-image.faq{
+	background: url('../images/img-promo-faq.jpg') no-repeat 50% 0;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
 /* workflow */
-.workflow .tabset{
+.tabset{
 	list-style: none;
 	margin-bottom: 45px;
 	width: 100%;
@@ -683,7 +677,7 @@ section .heading h3{
 	table-layout: fixed;
 	border: 1px #7f7f7f solid;
 }
-.workflow .tabset a{
+.tabset a{
 	display: table-cell;
 	vertical-align: middle;
 	font-size: 16px;
@@ -693,27 +687,27 @@ section .heading h3{
 	height: 65px;
 	background: url('../images/separator-vertical.png') repeat-y;
 }
-.workflow .tabset a:first-child{background: none;}
-.workflow .tabset a span{display: block;}
-.workflow .tabset a.active,
-.workflow .tabset a:first-child.active{
+.tabset a:first-child{background: none;}
+.tabset a span{display: block;}
+.tabset a.active,
+.tabset a:first-child.active{
 	background: #f60;
 	color: #fff;
 	position: relative;
 }
-.workflow .tabset a.active + a{background: none;}
-.workflow .title{
+.tabset a.active + a{background: none;}
+.page-title{
 	margin-bottom: 60px;
 	text-align: center;
 }
-.workflow h2{
+.page-title h2{
 	font-size: 23px;
 	line-height: 1.4;
 	font-weight: 600;
 	letter-spacing: 3px;
 	margin-bottom: 4px;
 }
-.workflow h3{
+.page-title h3{
 	font-size: 15px;
 	line-height: 1.4;
 	letter-spacing: 1.5px;
@@ -1013,9 +1007,50 @@ section .heading h3{
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 }
-
-
-
+/* faq block */
+.faq-block .tabset{margin-bottom: 95px;}
+.faq-list{
+	list-style: none;
+	margin-bottom: 94px;
+	overflow: hidden;
+}
+.faq-list li{
+	list-style: none;
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+.faq-list .q,
+.faq-list .a{
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.faq-list .q .ttl,
+.faq-list .a .ttl{
+	margin-right: 18px;
+	float: left;
+	width: 45px;
+	height: 45px;
+	font: 25px/45px 'Lato', sans-serif;
+	color: #fff;
+	background: #f60;
+	text-align: center;
+}
+.faq-list .a .ttl{background: #666;}
+.faq-list h3{
+	font-size: 18px;
+	line-height: 33px;
+	color: #f60;
+	padding-top: 6px;
+	overflow: hidden;
+}
+.faq-list p{
+	margin: 0;
+	font-size: 15px;
+	line-height: 26px;
+	padding-top: 10px;
+	font-weight: 500;
+	overflow: hidden;
+}
 
 
 
@@ -1598,22 +1633,23 @@ section .heading h3{
 	}
 	.promo-image{margin-bottom: 35px;}
 	.tabset-holder{margin: 0 -20px;}
-	.workflow .tabset{margin-bottom: 30px;}
-	.workflow .tabset a{
+	.tabset,
+	.faq-block .tabset{margin-bottom: 30px;}
+	.tabset a{
 		font-size: 12px;
 		line-height: 14px;
 		padding: 5px;
 		height: auto;
 	}
-	.workflow h2{
+	.page-title h2{
 		font-size: 18px;
 		letter-spacing: 2px;
 	}
-	.workflow h3{
+	.page-title h3{
 		font-size: 13px;
 		letter-spacing: 1px;
 	}
-	.workflow .title{margin-bottom: 30px;}
+	.page-title{margin-bottom: 30px;}
 	.contact-box .heading h4{
 		font-size: 14px;
 		line-height: 1.4;
@@ -1653,6 +1689,29 @@ section .heading h3{
 	.form .row.bottom{margin-bottom: 30px;}
 	.form .btn{margin-bottom: 30px;}
 	.contact-box{margin-bottom: 0;}
+	.faq-list{margin-bottom: 0;}
+	.faq-list li{margin-bottom: 40px;}
+	.faq-list .q,
+	.faq-list .a{margin-bottom: 5px;}
+	.faq-list .q .ttl,
+	.faq-list .a .ttl{
+		width: 30px;
+		height: 30px;
+		font-size: 18px;
+		line-height: 30px;
+		margin-right: 15px;
+	}
+	.faq-list h3{
+		font-size: 16px;
+		line-height: 22px;
+		padding-top: 4px;
+	}
+	.faq-list p{
+		font-size: 13px;
+		line-height: 18px;
+		padding-top: 6px;
+	}
+
 
 
 
