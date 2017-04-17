@@ -668,6 +668,25 @@ section .heading h3{
 	 -webkit-background-size: cover;
 	 background-size: cover;
  }
+.promo-image.company{
+	 background: url('../images/img-promo-company.jpg') no-repeat 50% 0;
+	 -webkit-background-size: cover;
+	 background-size: cover;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* workflow */
 .tabset{
 	list-style: none;
@@ -1084,6 +1103,73 @@ table.table th{
 	width: 27%;
 }
 table.table td{padding-left: 30px;}
+/* firm box */
+.firm-box{
+	padding-top: 38px;
+	margin-bottom: 49px;
+	overflow: hidden;
+}
+.firm-box .page-title{margin-bottom: 50px;}
+.firm-box .box{overflow: hidden;}
+.firm-box .image{
+	padding-top: 7px;
+	width: 40%;
+	margin-right: 9.7%;
+	float: left;
+}
+.firm-box .image img{
+	display: block;
+	width: 100%;
+}
+.firm-box .text{overflow: hidden;}
+.firm-box .text p{margin-bottom: 34px;}
+.firm-box .text p.firm{
+	text-align: right;
+	margin-bottom: 10px;
+}
+.firm-box .text p.signature{text-align: right;}
+.firm-box .text p.signature img{vertical-align: top;}
+/* company profile */
+.company-profile{margin-bottom: 150px;}
+.company-profile .page-title{margin-bottom: 54px;}
+.company-profile .box{overflow: hidden;}
+.company-profile .images{
+	float: right;
+	margin-left: 10%;
+	width: 40%;
+}
+.company-profile .images img{
+	display: block;
+	width: 100%;
+	margin-bottom: 35px;
+}
+.company-profile .table{
+	padding-top: 3px;
+	overflow: hidden;
+}
+.company-profile table{
+	width: 100%;
+	border-collapse: collapse;
+}
+.company-profile table th,
+.company-profile table td{
+	border: 1px solid #ccc;
+	border-width: 1px 0;
+	text-align: left;
+	font-size: 16px;
+	line-height: 34px;
+	font-weight: 500;
+	vertical-align: middle;
+	padding: 6px 5px 6px 28px;
+	height: 37px;
+}
+.company-profile table th{
+	background: #fff7f2;
+	width: 29%;
+	padding: 6px 5px;
+	text-align: center;
+}
+
 
 
 
@@ -1261,6 +1347,9 @@ table.table td{padding-left: 30px;}
 	.faq-list{margin-bottom: 70px;}
 	table.table th{padding-left: 40px;}
 	.recruit-block{margin-bottom: 0;}
+	.firm-box .image{margin-right: 5%;}
+	.company-profile{margin-bottom: 130px;}
+	.company-profile .images{margin-left: 5%;}
 
 
 
@@ -1754,8 +1843,35 @@ table.table td{padding-left: 30px;}
 		line-height: 18px;
 	}
 	.recruit-block .btn{margin-bottom: 0;}
-
-
+	.firm-box{padding-top: 0;}
+	.firm-box .page-title{margin-bottom: 20px;}
+	.firm-box .image{
+		margin: 0 0 20px;
+		float: none;
+		width: 100%;
+		padding-top: 0;
+	}
+	.firm-box .text p{
+		font-size: 13px;
+		line-height: 18px;
+		margin-bottom: 18px;
+	}
+	.firm-box .text p.signature img{width: 120px;}
+	.company-profile{margin-bottom: 20px;}
+	.company-profile .page-title{margin-bottom: 20px;}
+	.company-profile .images{
+		margin: 0;
+		float: none;
+		width: 100%;
+	}
+	.company-profile .images img{margin-bottom: 15px;}
+	.company-profile table th,
+	.company-profile table td{
+		padding-top: 5px;
+		padding-bottom: 5px;
+		font-size: 12px;
+		line-height: 18px;
+	}
 
 
 
