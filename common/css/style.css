@@ -1641,9 +1641,7 @@ section .heading h3{
 		margin-right: 7px;
 	}
 	.form .check-col{
-		display: block;
-		width: 100%;
-		margin: 0 0 5px;
+		margin: 0 12px 5px 0;
 	}
 	.form .holf .check-col:last-child{margin-bottom: 0;}
 	.form .check-col label{
@@ -1651,10 +1649,7 @@ section .heading h3{
 		line-height: 24px;
 	}
 	.form .text{width: 100%;}
-	.form .link{
-		margin: 0;
-		width: 100%;
-	}
+	.form .link{margin: 0;}
 	.form .row.bottom{margin-bottom: 30px;}
 	.form .btn{margin-bottom: 30px;}
 	.contact-box{margin-bottom: 0;}
