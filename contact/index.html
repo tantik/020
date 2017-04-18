@@ -62,15 +62,15 @@
 									<label for="check01" class="label">お問合せ項目 <i>必須</i></label>
 									<div class="hold">
 										<div class="check-col">
-											<input tabindex="1" id="check01" type="checkbox" value="" />
+											<input tabindex="1" id="check01" type="checkbox" name="item[]" value="採用について" />
 											<label for="check01">採用について</label>
 										</div>
 										<div class="check-col">
-											<input tabindex="2" id="check02" type="checkbox" value="" />
+											<input tabindex="2" id="check02" type="checkbox" name="item[]" value="新規取引について" />
 											<label for="check02">新規取引について</label>
 										</div>
 										<div class="check-col">
-											<input tabindex="3" id="check03" type="checkbox" value="" />
+											<input tabindex="3" id="check03" type="checkbox"  name="item[]" value="その他" />
 											<label for="check03">その他</label>
 										</div>
 									</div>
@@ -181,6 +181,13 @@
 						<div id="post_form_success">ありがとうございます。 <br>予約フォームが送信されました。</div>
 						<script>
 							document.getElementById('contacts-form').addEventListener('submit', function(evt){
+
+							    evt.preventDefault();
+
+							    if(!$('#check04')[0].checked)
+                                    return false;
+								
+
 								var http = new XMLHttpRequest(), f = this, formData;
 								evt.preventDefault();
 								http.open("POST", "/contact_send.php", true);
@@ -192,6 +199,7 @@
 										$('#post_form_success').show();
 										f.msg.removeAttribute('value');
 										f.msg.value='';
+
 									}
 								}
 								http.onerror = function() {

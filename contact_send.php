@@ -23,9 +23,10 @@ if ($_POST['upflg'] == 1) {
     $item = "";
 
     foreach ( (array)$_POST['item'] as $key => $val ) {
-        $item .= $val."  ";
+        $item .= $val.", ";
     }
 
+    $item =  substr($item, 0, -2);
 
     /*************************************************
     //ファイルアップロード関連
@@ -79,7 +80,8 @@ if ($_POST['upflg'] == 1) {
     //$mailto   = "ikai@vizan.co.jp";
     //$mailto   = "nightmare0618@yahoo.co.jp";
     //$mailto  = "r-goto@re-eight.com";
-    $mailto  = "tanti_2301@hotmail.com";
+    //$mailto  = "tanti_2301@hotmail.com";
+    $mailto  = "maxsheva888@gmail.com";
 
     /* エンドユーザー返信メール末尾の案件アドレス */
     $site_url_mail = "http://site-one.net/esite/●●●/";
@@ -97,6 +99,7 @@ if ($_POST['upflg'] == 1) {
 
 ＜送信内容＞
 
+お問合せ項目: {$item} 
 お名前：{$_POST['name']}
 法人名：{$_POST['company']}
 
@@ -178,7 +181,6 @@ message_tempdata;
     //メール送信
    $res =  mb_send_mail($mailto, $subject, $message, $header);
 
-    echo $res;
     // ユーザー宛
     $header = "From:".mb_encode_mimeheader($mail_title)."<".$mailto.">\r\n";
     $mailto_guest = $_POST['mail'];
@@ -196,6 +198,7 @@ message_tempdata;
 
 ＜お問い合わせ内容＞
 
+お問合せ項目: {$item}
 お名前：{$_POST['name']}
 法人名：{$_POST['company']}
 
@@ -215,11 +218,11 @@ _message;
 
     //メール送信
     $res =  mb_send_mail($mailto_guest,$subject,$message,$header);
-    echo $res;
+
 } else {
 
     //header("Location: ./contact.php");
-    echo "false";
+
     exit;
 
 }

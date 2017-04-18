@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2fbdeb4-5857-42be-a079-dc2ed737235c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about_us/index.html" afterPath="$PROJECT_DIR$/about_us/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/business_information/index.html" afterPath="$PROJECT_DIR$/business_information/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/css/style.css" afterPath="$PROJECT_DIR$/common/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/js/main.js" afterPath="$PROJECT_DIR$/common/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/company/index.html" afterPath="$PROJECT_DIR$/company/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/index.html" afterPath="$PROJECT_DIR$/contact/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/development_and_future/index.html" afterPath="$PROJECT_DIR$/development_and_future/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/faq/index.html" afterPath="$PROJECT_DIR$/faq/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interview/index.html" afterPath="$PROJECT_DIR$/interview/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recruit/index.html" afterPath="$PROJECT_DIR$/recruit/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workflow/index.html" afterPath="$PROJECT_DIR$/workflow/index.html" />
-    </list>
+    <list default="true" id="e2fbdeb4-5857-42be-a079-dc2ed737235c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -27,18 +14,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/common/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="2587" column="24" lean-forward="true" selection-start-line="2587" selection-start-column="24" selection-end-line="2587" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -301,7 +277,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Project021/sass" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RunDashboard">
@@ -400,18 +376,17 @@
       <workItem from="1492155854762" duration="19694000" />
       <workItem from="1492415502649" duration="72000" />
       <workItem from="1492497213734" duration="187000" />
-      <workItem from="1492497470625" duration="17258000" />
+      <workItem from="1492497470625" duration="17892000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90380000" />
+    <option name="totallyTimeSpent" value="91014000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15603584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15603584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
