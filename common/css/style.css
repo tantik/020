@@ -703,10 +703,16 @@ section .heading h3{
 	color: #585858;
 	height: 65px;
 	background: url('../images/separator-vertical.png') repeat-y;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 .tabset a:first-child{background: none;}
 .tabset a span{display: block;}
 .tabset a.active,
+.tabset a:hover,
+.tabset a.active + a:hover,
 .tabset a:first-child.active{
 	background: #f60;
 	color: #fff;
