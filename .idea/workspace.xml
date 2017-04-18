@@ -16,14 +16,14 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3811281">
+    <splitter split-orientation="horizontal" split-proportion="0.39483395">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/common/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="57">
-                  <caret line="2457" column="41" lean-forward="true" selection-start-line="2457" selection-start-column="41" selection-end-line="2457" selection-end-column="41" />
+                <state relative-caret-position="673">
+                  <caret line="2593" column="5" lean-forward="true" selection-start-line="2593" selection-start-column="5" selection-end-line="2593" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -44,10 +44,10 @@
       <split-second>
         <leaf>
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/about_us/index.html">
+            <entry file="file://$PROJECT_DIR$/business_information/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3872">
-                  <caret line="176" column="18" lean-forward="true" selection-start-line="176" selection-start-column="18" selection-end-line="176" selection-end-column="18" />
+                <state relative-caret-position="396">
+                  <caret line="52" column="44" lean-forward="true" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
                   <folding />
                 </state>
               </provider>
@@ -80,6 +80,7 @@
       <find>.gallery-img</find>
       <find>.interview-main .text.left .hold,</find>
       <find>about-block</find>
+      <find>info-block</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -97,6 +98,7 @@
         <option value="$PROJECT_DIR$/contact/index.html" />
         <option value="$PROJECT_DIR$/interview/index.html" />
         <option value="$PROJECT_DIR$/about_us/index.html" />
+        <option value="$PROJECT_DIR$/business_information/index.html" />
         <option value="$PROJECT_DIR$/common/css/style.css" />
       </list>
     </option>
@@ -151,6 +153,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="interview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="020" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="020" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="business_information" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -277,12 +293,12 @@
       <workItem from="1492155854762" duration="19694000" />
       <workItem from="1492415502649" duration="72000" />
       <workItem from="1492497213734" duration="187000" />
-      <workItem from="1492497470625" duration="12864000" />
+      <workItem from="1492497470625" duration="16085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85986000" />
+    <option name="totallyTimeSpent" value="89207000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -403,18 +419,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/css/style.css">
+    <entry file="file://$PROJECT_DIR$/about_us/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="2457" column="41" lean-forward="true" selection-start-line="2457" selection-start-column="41" selection-end-line="2457" selection-end-column="41" />
+        <state relative-caret-position="519">
+          <caret line="133" column="39" lean-forward="false" selection-start-line="133" selection-start-column="39" selection-end-line="133" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about_us/index.html">
+    <entry file="file://$PROJECT_DIR$/business_information/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3872">
-          <caret line="176" column="18" lean-forward="true" selection-start-line="176" selection-start-column="18" selection-end-line="176" selection-end-column="18" />
+        <state relative-caret-position="396">
+          <caret line="52" column="44" lean-forward="true" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="2593" column="5" lean-forward="true" selection-start-line="2593" selection-start-column="5" selection-end-line="2593" selection-end-column="5" />
           <folding />
         </state>
       </provider>

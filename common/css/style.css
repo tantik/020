@@ -665,9 +665,6 @@ section .heading h3{
 .promo-image.development{background: url('../images/img-promo-development.jpg') no-repeat;}
 .promo-image.interview{background: url('../images/img-promo-interview.jpg') no-repeat;}
 .promo-image.about{background: url('../images/img-promo-about.jpg') no-repeat;}
-
-
-
 .promo-image.workflow,
 .promo-image.contact,
 .promo-image.faq,
@@ -679,12 +676,6 @@ section .heading h3{
 	-webkit-background-size: cover;
 	background-size: cover;
 }
-
-
-
-
-
-
 /* workflow */
 .tabset{
 	list-style: none;
@@ -1538,20 +1529,75 @@ table.table td{padding-left: 30px;}
 	display: block;
 	width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* business info */
+.business-info{
+	padding-top: 23px;
+	margin-bottom: 191px;
+	overflow: hidden;
+}
+.info-block{
+	display: flex;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	align-items: center;
+	margin-bottom: 126px;
+	background: #f60;
+	color: #fff;
+	font-size: 16px;
+	line-height: 34px;
+	overflow: hidden;
+}
+.info-block .image{
+	width: 50%;
+	order: 1;
+}
+.info-block .image img{
+	display: block;
+	width: 100%;
+}
+.info-block .text{
+	width: 50%;
+	overflow: hidden;
+}
+.info-block .text .hold{
+	width: 490px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0 50px 0 30px;
+	float: right;
+}
+.info-block .text h3{
+	margin: 0 0 3px 50px;
+	font-size: 25px;
+	line-height: 1.4;
+	letter-spacing: 0.5px;
+}
+.info-block .text h4{
+	margin:0 0 63px 5px;
+	font: italic 18px/1.4 'Lato', sans-serif;
+	letter-spacing: 1.8px;
+}
+.info-block .text p{margin-bottom: 40px;}
+.business-info .blocks{
+	display: flex;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	margin-bottom: 50px;
+	justify-content: space-between;
+	overflow: hidden;
+}
+.business-info .blocks .box{
+	width: 30.6%;
+}
+.business-info .blocks .box img{
+	display: block;
+	width: 100%;
+}
 	/* footer */
 #footer{
 	padding: 200px 0 208px;
@@ -1713,7 +1759,6 @@ table.table td{padding-left: 30px;}
 	.future-block .box .text,
 	.commitment-block .box .text{padding: 20px;}
 	.commitment-block{margin-bottom: 95px;}
-
 	.interview-main .text.left .hold,
 	.interview-main .text .hold{
 		padding: 0 25px;
@@ -1748,23 +1793,22 @@ table.table td{padding-left: 30px;}
 		line-height: 2;
 		margin: 0;
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	.info-block{line-height: 2;}
+	.info-block .text .hold{
+		width: 100%;
+		padding: 0 25px;
+		float: none;
+	}
+	.info-block .text .hold h3{
+		margin: 0 0 3px;
+		text-align: center;
+	}
+	.info-block .text .hold h4{
+		margin: 0 0 30px;
+		text-align: center;
+	}
+	.info-block .text .hold p{margin: 0;}
+	.business-info{margin-bottom: 100px;}
 	#footer{padding: 100px 0 140px;}
 	#footer .copyright{font-size: 10px;}
 	#footer .logo-holder{width: 33%;}
@@ -2456,34 +2500,37 @@ table.table td{padding-left: 30px;}
 		width: 100%;
 	}
 	.security-block{margin-bottom: 20px;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	.business-info{
+		padding-top: 0;
+		margin-bottom: 20px;
+	}
+	.business-info .page-title{margin-bottom: 20px;}
+	.info-block{
+		flex-wrap: wrap;
+		font-size: 14px;
+		line-height: 18px;
+		margin-bottom: 50px;
+	}
+	.info-block .image{
+		order: 0;
+		width: 100%;
+	}
+	.info-block .text{width: 100%;}
+	.info-block .text .hold{padding: 25px;}
+	.info-block .text .hold h3{font-size: 20px;}
+	.info-block .text .hold h4{
+		margin-bottom: 30px;
+		font-size: 16px;
+		letter-spacing: 1px;
+	}
+	.business-info .blocks{
+		flex-wrap: wrap;
+		margin-bottom: 0;
+	}
+	.business-info .blocks .box{
+		margin: 0 0 15px;
+		width: 100%;
+	}
 	#footer{
 		padding: 50px 0 105px;
 	}
