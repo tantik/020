@@ -8,7 +8,9 @@ function initPage(){
 var allGallery = {}
 function swiperGallery1(){
 	allGallery.swiperTop = new Swiper('.swiper-top', {
-		autoplay: 3000,
+		autoplay: 4000,
+		effect: 'fade',
+        speed: 2000,
         autoplayDisableOnInteraction: false,
 		loop: true
 	});
@@ -16,7 +18,8 @@ function swiperGallery1(){
 
 function swiperGallery2(){
 	allGallery.swiperTop = new Swiper('.gallery-img', {
-		autoplay: 3000,
+		autoplay: 1,
+		speed: 10000,
 		autoplayDisableOnInteraction: false,
 		loop: true,
 		slidesPerView: 5,

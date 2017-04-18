@@ -251,8 +251,15 @@ body{
 }
 .swiper-top .top-heading{
 	position: absolute;
-	top: 50%;
+	top: 100%;
 	left: 50%;
+	opacity: 0;
+	-webkit-animation-name: titleOpacity;
+	animation-name: titleOpacity;
+	-webkit-animation-duration: 0.6s;
+	animation-duration:0.6s;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
 	-webkit-transform: translate(-50%,-50%);
 	-moz-transform: translate(-50%,-50%);
 	-ms-transform: translate(-50%,-50%);
@@ -454,18 +461,14 @@ section .heading h3{
 .interview-box .btn span{
 	line-height: 37px;
 }
-.interview-box .btn:after{background: #f60;}
+.interview-box .btn:after{display: none;}
 .interview-box .btn:before{
 	width: 10px;
 	height: 10px;
 	margin-top: -5px;
 	background: url('../images/arrow02.png') no-repeat;
 }
-.interview-box .btn:hover{
-	color: #fff !important;
-	border-color: #fff;
-}
-.interview-box .btn:hover:before{background: url('../images/arrow02-on.png') no-repeat;}
+.interview-box .btn:hover{opacity: 0.8;}
 .interview-small-holder{
 	margin-bottom: 88px;
 	overflow: hidden;
@@ -2592,5 +2595,26 @@ table.table td{padding-left: 30px;}
 	#footer .copyright{
 		font-size: 9px;
 		letter-spacing: 1px;
+	}
+}
+/* animation */
+@-webkit-keyframes titleOpacity {
+	from {
+		opacity: 0;
+		top: 100%;
+	}
+	to {
+		opacity: 1;
+		top: 50%;
+	}
+}
+@keyframes titleOpacity {
+	from {
+		opacity: 0;
+		top: 100%;
+	}
+	to {
+		opacity: 1;
+		top: 50%;
 	}
 }
