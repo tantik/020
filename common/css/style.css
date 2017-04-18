@@ -1617,7 +1617,8 @@ table.table td{padding-left: 30px;}
 	width: 40%;
 	margin-left: 1%;
 }
-#footer .logo-holder h5{
+#footer .logo-holder .title{
+	display: block;
 	margin-bottom: 20px;
 	font-size: 20px;
 	line-height: 1.4;
@@ -1812,7 +1813,7 @@ table.table td{padding-left: 30px;}
 	#footer{padding: 100px 0 140px;}
 	#footer .copyright{font-size: 10px;}
 	#footer .logo-holder{width: 33%;}
-	#footer .logo-holder h5{font-size: 18px;}
+	#footer .logo-holder .title{font-size: 18px;}
 	#footer .columns .links{font-size: 13px;}
 }
 /* mobile styles */
@@ -2583,7 +2584,7 @@ table.table td{padding-left: 30px;}
 		-webkit-background-size: 107px 44px;
 		background-size: 107px 44px;
 	}
-	#footer .logo-holder h5{
+	#footer .logo-holder .title{
 		font-size: 14px;
 		font-weight: 500;
 		margin-bottom: 8px;

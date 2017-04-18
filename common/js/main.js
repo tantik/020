@@ -4,7 +4,6 @@ function initPage(){
 	swiperGallery2();
 	mobileMenu();
 	initSameHeight();
-
 }
 var allGallery = {}
 function swiperGallery1(){
