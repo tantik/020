@@ -1425,25 +1425,21 @@ table.table td{padding-left: 30px;}
 	display: block;
 	width: 100%;
 }
-.interview-main .text.left .hold,
-.interview-main .text .hold{
-	padding: 0 25px;
-	width: 100%;
-}
-.interview-main .text .num{
-	font-size: 26px;
-	margin-bottom: 10px;
-}
-.interview-main .text h2{
-	font-size: 28px;
-	line-height: 1.4;
-	margin-bottom: 20px;
-}
-.interview-main .text .white-box{
-	padding: 5px 20px;
-	font-size: 13px;
-	line-height: 16px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1584,7 +1580,6 @@ table.table td{padding-left: 30px;}
 		font-weight: 600;
 	}
 	#header nav ul li{margin-left: 20px;}
-
 	.swiper-top .top-heading{width: 500px;}
 	.swiper-top .top-heading h3{font-size: 22px;}
 	.swiper-top .top-heading h2{
@@ -1633,6 +1628,26 @@ table.table td{padding-left: 30px;}
 	.future-block .box .text,
 	.commitment-block .box .text{padding: 20px;}
 	.commitment-block{margin-bottom: 95px;}
+
+	.interview-main .text.left .hold,
+	.interview-main .text .hold{
+		padding: 0 25px;
+		width: 100%;
+	}
+	.interview-main .text .num{
+		font-size: 26px;
+		margin-bottom: 10px;
+	}
+	.interview-main .text h2{
+		font-size: 28px;
+		line-height: 1.4;
+		margin-bottom: 20px;
+	}
+	.interview-main .text .white-box{
+		padding: 5px 20px;
+		font-size: 13px;
+		line-height: 16px;
+	}
 
 
 
