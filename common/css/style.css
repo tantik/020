@@ -1686,6 +1686,20 @@ table.table td{padding-left: 30px;}
 	color: #f60;
 	background: url('../images/arrow-footer-on.png') no-repeat 0 50%;
 }
+/* lazy loading */
+.onscroll{
+	position: relative;
+	top: 10vh;
+	opacity: 0;
+	-webkit-transition:  0.8s all;
+	-moz-transition:  0.8s all;
+	-o-transition:  0.8s all;
+	transition:  0.8s all;
+}
+.onscroll.scrollOn{
+	top: 0;
+	opacity: 1;
+}
 /* responsive styles */
 @media only screen and (max-width: 1400px) {
 	#header .link-call{width: 230px;}

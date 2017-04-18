@@ -4,6 +4,7 @@ function initPage(){
 	swiperGallery2();
 	mobileMenu();
 	initSameHeight();
+	fadeOnscroll();
 }
 var allGallery = {}
 function swiperGallery1(){
@@ -204,3 +205,58 @@ jQuery.onFontResize = (function($) {
 		}
 	};
 }(jQuery));
+
+
+/* Scroll to Element */
+(function($) {
+	$.fn.scrollToElement = function(options){
+		var options = $.extend({
+			selectorElement: $(this),
+			minusScroll: 0,
+			action:''
+		}, options);
+		this.each(function() {
+			var show = true;
+			var countbox = options.selectorElement;
+			$(window).on("scroll load resize", function(){
+
+				if(!show) return false;
+
+				var w_top = new $(window).scrollTop();
+				var e_top = new $(countbox).offset().top-options.minusScroll;
+
+				var w_height = new $(window).height();
+				var d_height = new $(document).height();
+
+				var e_height = new $(countbox).outerHeight();
+
+				if(w_top + 300 >= e_top || w_height + w_top == d_height || e_height + e_top < w_height){
+					show = false;
+					eval('options.action()');
+				}
+			});
+		});
+		return this;
+	};
+})(jQuery);
+
+
+/* OnScroll Elements */
+function fadeOnscroll(){
+	$('.onscroll').each(function(){
+		var thisAll = $(this)
+		thisAll.scrollToElement({
+			minusScroll:$(window).height()*0.4,
+			action:function(){
+				var delays = 0;
+				thisAll.each(function(){
+					var $this = thisAll;
+					setTimeout(function(){
+						$this.addClass('scrollOn');
+					},delays)
+					delays = delays + 200
+				});
+			}
+		});
+	});
+}
