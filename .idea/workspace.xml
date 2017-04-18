@@ -16,14 +16,14 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.39905113">
+    <splitter split-orientation="horizontal" split-proportion="0.3811281">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/common/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="551">
-                  <caret line="1647" column="24" lean-forward="true" selection-start-line="1647" selection-start-column="24" selection-end-line="1647" selection-end-column="24" />
+                <state relative-caret-position="57">
+                  <caret line="2457" column="41" lean-forward="true" selection-start-line="2457" selection-start-column="41" selection-end-line="2457" selection-end-column="41" />
                   <folding />
                 </state>
               </provider>
@@ -42,22 +42,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf>
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/interview/index.html">
+            <entry file="file://$PROJECT_DIR$/about_us/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-427">
-                  <caret line="178" column="22" lean-forward="true" selection-start-line="178" selection-start-column="22" selection-end-line="178" selection-end-column="22" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="607">
-                  <caret line="214" column="22" lean-forward="true" selection-start-line="196" selection-start-column="16" selection-end-line="214" selection-end-column="22" />
+                <state relative-caret-position="3872">
+                  <caret line="176" column="18" lean-forward="true" selection-start-line="176" selection-start-column="18" selection-end-line="176" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -88,6 +78,8 @@
       <find>.form .check-col</find>
       <find>'Lato', sans-serif;</find>
       <find>.gallery-img</find>
+      <find>.interview-main .text.left .hold,</find>
+      <find>about-block</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -104,6 +96,7 @@
         <option value="$PROJECT_DIR$/common/css/jcf.css" />
         <option value="$PROJECT_DIR$/contact/index.html" />
         <option value="$PROJECT_DIR$/interview/index.html" />
+        <option value="$PROJECT_DIR$/about_us/index.html" />
         <option value="$PROJECT_DIR$/common/css/style.css" />
       </list>
     </option>
@@ -158,6 +151,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="interview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="020" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="020" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="about_us" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -270,12 +277,12 @@
       <workItem from="1492155854762" duration="19694000" />
       <workItem from="1492415502649" duration="72000" />
       <workItem from="1492497213734" duration="187000" />
-      <workItem from="1492497470625" duration="6178000" />
+      <workItem from="1492497470625" duration="12864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79300000" />
+    <option name="totallyTimeSpent" value="85986000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -382,8 +389,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="214" column="22" lean-forward="true" selection-start-line="196" selection-start-column="16" selection-end-line="214" selection-end-column="22" />
+        <state relative-caret-position="519">
+          <caret line="214" column="22" lean-forward="false" selection-start-line="196" selection-start-column="16" selection-end-line="214" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -391,15 +398,23 @@
     <entry file="file://$PROJECT_DIR$/interview/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-427">
-          <caret line="178" column="22" lean-forward="true" selection-start-line="178" selection-start-column="22" selection-end-line="178" selection-end-column="22" />
+          <caret line="178" column="22" lean-forward="false" selection-start-line="178" selection-start-column="22" selection-end-line="178" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="1647" column="24" lean-forward="true" selection-start-line="1647" selection-start-column="24" selection-end-line="1647" selection-end-column="24" />
+        <state relative-caret-position="57">
+          <caret line="2457" column="41" lean-forward="true" selection-start-line="2457" selection-start-column="41" selection-end-line="2457" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about_us/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3872">
+          <caret line="176" column="18" lean-forward="true" selection-start-line="176" selection-start-column="18" selection-end-line="176" selection-end-column="18" />
           <folding />
         </state>
       </provider>
