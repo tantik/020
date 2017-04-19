@@ -630,8 +630,12 @@ section .heading h3{
 	-moz-border-radius: 12px;
 	border-radius: 12px;
 }
-.btn.btn-access span{line-height: 23px;}
+.btn.btn-access:after{display:none;}
 .btn.btn-access:before{display: none;}
+.btn.btn-access:hover{
+	opacity: 1;
+	color: #fff;
+}
 /* promo image */
 .promo-image{
 	height: 225px;
