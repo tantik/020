@@ -20,6 +20,7 @@ function swiperGallery1(){
 function swiperGallery2(){
 	(function($) {
 		$(function() {
+			$('#scroller').children().clone(true).appendTo('#scroller');
 			$("#scroller").simplyScroll();
 		});
 	})(jQuery);
