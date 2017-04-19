@@ -1434,13 +1434,9 @@ table.table td{padding-left: 30px;}
 	text-align: center;
 	letter-spacing: 2px;
 }
-.workplace-box .gallery-img{
+.workplace-box .simply-scroll{
 	margin-bottom: 75px;
 	overflow: hidden;
-}
-.workplace-box .gallery-img img{
-	display: block;
-	width: 100%;
 }
 /* about block */
 .about-block{
@@ -2537,7 +2533,7 @@ table.table td{padding-left: 30px;}
 		padding: 0 25px;
 		margin-bottom: 15px;
 	}
-	.workplace-box .gallery-img{
+	.workplace-box .simply-scroll{
 		margin-bottom: 20px;
 	}
 	.workplace-box .btn{
