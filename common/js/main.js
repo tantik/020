@@ -18,22 +18,11 @@ function swiperGallery1(){
 }
 
 function swiperGallery2(){
-	allGallery.swiperTop = new Swiper('.gallery-img', {
-		autoplay: 1,
-		speed: 10000,
-		autoplayDisableOnInteraction: false,
-		loop: true,
-		slidesPerView: 5,
-		spaceBetween: 0,
-		breakpoints: {
-			1000: {
-				slidesPerView: 4
-			},
-			736: {
-				slidesPerView: 2
-			}
-		}
-	});
+	(function($) {
+		$(function() {
+			$("#scroller").simplyScroll();
+		});
+	})(jQuery);
 }
 
 /* Mobile Menu */
