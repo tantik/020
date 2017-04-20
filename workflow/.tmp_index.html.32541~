@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta name = "format-detection" content = "telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>YAMATO</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:400i" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../common/css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="../common/css/style.css">
+</head>
+<body class="index">
+	<div id="wrapper"><!-- header begin -->
+		<header id="header">
+			<div class="header">
+				<!-- logo begin -->
+				<strong class="logo"><a href="#">YAMATO</a></strong>
+				<!-- logo end -->
+				<a href="#" class="mobile-opener"><span>Menu</span></a>
+				<div class="nav">
+					<nav>
+						<ul>
+							<li><a href="../index.html">トップ</a></li>
+							<li><a href="../about_us/index.html">大和商行とは</a></li>
+							<li><a href="../business_information/index.html">事業案内</a></li>
+							<li><a href="../recruit/index.html">求人案内</a></li>
+							<li class="sp"><a href="../interview/index.html">社員インタビュー</a></li>
+							<li class="sp"><a href="#">1日の流れ</a></li>
+							<li class="sp"><a href="../development_and_future/index.html">人材育成・将来性</a></li>
+							<li class="sp"><a href="../faq/index.html">よくある質問</a></li>
+							<li><a href="../company/index.html">会社案内</a></li>
+						</ul>
+					</nav>
+					<a href="../contact/index.html" class="link-mail btn"><span>お問合せ</span></a>
+				</div>
+				<a href="#" class="link-call btn"><span>求人などのお問合せ</span></a>
+			</div>
+		</header>
+		<!-- header end -->
+		<!-- main content begin -->
+		<div id="main">
+			<!-- promo image begin -->
+			<div class="promo-image workflow">
+				<div class="head">
+					<h2>1日の仕事の流れ</h2>
+					<h3>workflow</h3>
+				</div>
+			</div>
+			<!-- promo image end -->
+			<!-- workflow begin -->
+			<section class="workflow">
+				<div class="holder">
+					<div class="tabset-holder">
+						<div class="tabset">
+							<a href="#">求人案内</a>
+							<a href="#">社員インタビュー</a>
+							<a class="active" href="#">1日の仕事の流れ</a>
+							<a href="#"><span>人材育成・将来性</span>について</a>
+							<a href="#">よくある質問</a>
+						</div>
+					</div>
+					<div class="page-title">
+						<h2>大和商行の1日の仕事の流れをご紹介します</h2>
+						<h3>※運行ルートなどにより変動があります。</h3>
+					</div>
+					<div class="workflow-blocks">
+						<div class="box box1">
+							<div class="head">
+								<h4>乗務員出勤</h4>
+							</div>
+						</div>
+						<div class="box box2 right">
+							<div class="head">
+								<h4>点呼・アルコールチェック</h4>
+							</div>
+							<img src="../common/images/img1-workflow.jpg" alt="image description" />
+						</div>
+						<div class="box box3">
+							<div class="head">
+								<h4>運行前点検</h4>
+							</div>
+							<img src="../common/images/img2-workflow.jpg" alt="image description" />
+						</div>
+						<div class="box box4 right">
+							<div class="head">
+								<h4>出庫	</h4>
+							</div>
+							<img src="../common/images/img3-workflow.jpg" alt="image description" />
+						</div>
+						<div class="box box5">
+							<div class="head">
+								<h4>現地にて、荷卸</h4>
+							</div>
+							<img src="../common/images/img4-workflow.jpg" alt="image description" />
+						</div>
+						<div class="box box6 right">
+							<div class="head">
+								<h4>当日走り</h4>
+							</div>
+							<img src="../common/images/img5-workflow.jpg" alt="image description" />
+						</div>
+						<div class="box box7">
+							<div class="head">
+								<h4>現地にて、荷積</h4>
+							</div>
+							<img src="../common/images/img6-workflow.jpg" alt="image description" />
+						</div>
+						<div class="box box8 right">
+							<div class="head">
+								<h4>当日走り</h4>
+							</div>
+							<img src="../common/images/img7-workflow.jpg" alt="image description" />
+						</div>
+						<div class="box box9">
+							<div class="head">
+								<h4>現地にて、荷卸</h4>
+							</div>
+							<img src="../common/images/img8-workflow.jpg" alt="image description" />
+						</div>
+						<div class="box box10 right">
+							<div class="head">
+								<h4>宵積みへ</h4>
+							</div>
+							<img src="../common/images/img9-workflow.jpg" alt="image description" />
+						</div>
+						<div class="box box11">
+							<div class="head">
+								<h4>現地にて、荷積</h4>
+							</div>
+							<img src="../common/images/img10-workflow.jpg" alt="image description" />
+						</div>
+						<div class="box box12 right">
+							<div class="head">
+								<h4>車庫へ帰社</h4>
+							</div>
+							<img src="../common/images/img11-workflow.jpg" alt="image description" />
+						</div>
+						<div class="box box13">
+							<div class="head">
+								<h4>点呼・アルコールチェック</h4>
+							</div>
+							<img src="../common/images/img12-workflow.jpg" alt="image description" />
+						</div>
+						<div class="box box14 right">
+							<div class="head">
+								<h4>乗務員帰宅</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- workflow end -->
+		</div>
+		<!-- main content end -->
+		<!-- footer begin -->
+		<footer id="footer">
+			<div class="holder">
+				<div class="logo-holder">
+					<strong class="logo"><a href="#">Yamato</a></strong>
+					<strong class="title">株式会社大和商行</strong>
+					<p class="copyright">copyright &copy;株式会社大和商行 All rights reserved</p>
+				</div>
+				<div class="columns pc">
+					<ul class="links">
+						<li><a href="#">トップ</a></li>
+						<li><a href="#">大和商行とは</a></li>
+						<li><a href="#">事業案内</a></li>
+						<li><a href="#">求人案内</a></li>
+					</ul>
+					<ul class="links">
+						<li><a href="#">社員インタビュー</a></li>
+						<li><a href="#">一日の流れ</a></li>
+						<li><a href="#">人材育成・将来性について</a></li>
+						<li><a href="#">よくある質問</a></li>
+					</ul>
+					<ul class="links">
+						<li><a href="#">会社案内</a></li>
+						<li><a href="#">お問合せ</a></li>
+					</ul>
+				</div>
+				<div class="columns sp">
+					<ul class="links">
+						<li><a href="#">トップ</a></li>
+						<li><a href="#">大和商行とは</a></li>
+						<li><a href="#">事業案内</a></li>
+						<li><a href="#">求人案内</a></li>
+						<li><a href="#">社員インタビュー</a></li>
+						<li><a href="#">1日の流れ</a></li>
+						<li><a href="#">人材育成・将来性</a></li>
+						<li><a href="#">よくある質問</a></li>
+						<li><a href="#">会社案内</a></li>
+						<li><a href="#">お問合せ</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+		<!-- footer end -->
+	</div>
+	<script type="text/javascript" src="../common/js/jquery-1.12.3.min.js"></script>
+	<script type="text/javascript" src="../common/js/swiper.min.js"></script>
+	<script type="text/javascript" src="../common/js/main.js"></script>
+	<script type="text/javascript" src="../common/js/jquery.simplyscroll.min.js"></script>
+</body>
+</html>
