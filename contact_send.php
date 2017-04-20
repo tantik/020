@@ -79,7 +79,7 @@ if ($_POST['upflg'] == 1) {
     //$mailto = $infomail;
     //$mailto   = "ikai@vizan.co.jp";
     //$mailto   = "nightmare0618@yahoo.co.jp";
-    $mailto  = "r-goto@re-eight.com";
+     $mailto  = "r-goto@re-eight.com";
 
     /* エンドユーザー返信メール末尾の案件アドレス */
     $site_url_mail = "http://site-one.net/esite/●●●/";

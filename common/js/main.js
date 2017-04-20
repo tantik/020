@@ -1,7 +1,7 @@
 $(document).ready(initPage);
 function initPage(){
 	swiperGallery1();
-	swiperGallery2();
+	setTimeout(swiperGallery2,500);
 	mobileMenu();
 	initSameHeight();
 	fadeOnscroll();
@@ -18,12 +18,10 @@ function swiperGallery1(){
 }
 
 function swiperGallery2(){
-	(function($) {
-		$(function() {
-			$('#scroller').children().clone(true).appendTo('#scroller');
-			$("#scroller").simplyScroll();
-		});
-	})(jQuery);
+	
+	$('#scroller').children().clone(true).appendTo('#scroller');
+	$("#scroller").simplyScroll();
+
 }
 
 /* Mobile Menu */
