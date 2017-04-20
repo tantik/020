@@ -5,7 +5,31 @@ function initPage(){
 	mobileMenu();
 	initSameHeight();
 	fadeOnscroll();
+	setTimeout(OnScroll,300);
 }
+
+
+
+
+if(window.location.hash){
+    window.hash = window.location.hash.substr(1);
+    window.location.hash = '';
+}
+ 
+function OnScroll() {
+    if (window.hash) {
+        var minus = $('#header').height();
+        var scrollPos = $('#'+window.hash).offset().top ;
+        $("html, body").animate({ scrollTop: scrollPos - minus }, 1000);
+
+    }
+};
+
+
+
+
+
+
 var allGallery = {}
 function swiperGallery1(){
 	allGallery.swiperTop = new Swiper('.swiper-top', {
@@ -34,7 +58,6 @@ function mobileMenu(){
 	
 	if ($(window).width() <= 736) {
 		$('.nav ul a').click(function(e) {
-			e.preventDefault();
 			$('body').removeClass('nav-visible');
 			$('.nav').slideUp(300);
 		});
